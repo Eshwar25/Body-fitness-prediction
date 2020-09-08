@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+  body{
+  background-image:url("https://th.bing.com/th/id/OIP.qBQoluXYtl7gUR59NR5XTQHaER?w=329&h=189&c=7&o=5&dpr=1.25&pid=1.7.jpg");
+  background-repeat:no-repeat;
+  background-attacchment:fixed;
+  background-size:cover;
+  }
+  .header{
+       width:800px;
+       background-color:rgb(0,0,0,6);
+       margin:auto;
+       color:#FFFFFF;
+       padding:10px 0px 10px 0px;
+       text-align:center;
+       border-radius:15px 15px 0px 0px;
+       }
+.MAIN button
+{
+height:30px;
+width:200px;
+margin-left:60px;
+background-color:rgb;
+}
+.MAIN{
+     background-color:rgb(0,0,0,0.5);
+     width:800px;
+     margin:auto;
+     text-allign:center;
+    }
+    form{
+    padding:100px;
+    }
+</style>
+</head>
+<body>
+<form action="/predict" method="post">
+<p>step_count</p>
+<p><input type="number" name="step_count"/></p>
+<p>mood</p>
+<p><input type="number" name="mood"/></p>
+<p>calories_burned</p>
+<p><input type="number" name="calories_burned"/></p>
+<p>hours_of_sleep</p>
+<p><input type="number" name="hours_of_sleep"/></p>
+<p>bool_of_active</p>
+<p><input type="number" name="bool_of_active"/></p>
+<p><input type="submit" value="click"/></p>
+<h2><font color=red>Body fitness:{{y}}kg</font></h2>
+</form>
+</body>
+</html>
